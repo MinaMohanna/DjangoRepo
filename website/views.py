@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
 
 def index_view(request):
-    return render(request, "website/home.html")
+    return render(request, "website/index.html")
 
 
 def contact_view(request):

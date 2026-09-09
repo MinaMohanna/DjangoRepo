@@ -7,3 +7,7 @@ urlpatterns = [
     path("" , blog_view, name='index'),
     path('single/', blog_single, name='single'),
 ]
+
+
+
+
